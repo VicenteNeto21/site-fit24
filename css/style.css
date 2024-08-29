@@ -22,7 +22,7 @@ body {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-h1#centro {
+h1#centro, p {
     color: var(--branco-fit);
     text-align: center;
 }
@@ -47,4 +47,10 @@ img{
     border: 2px solid var(--branco-fit);
     padding: 10px;
     border-radius: 5px;
+}
+
+.eventoAnterior {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
