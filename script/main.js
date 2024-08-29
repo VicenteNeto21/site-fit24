@@ -1,5 +1,5 @@
 // Define a data e hora de término para o contador
-const dataEvento = new Date('2024-12-02T00:00:00'); // Substitua pela data desejada
+const dataEvento = new Date('2024-12-02T00:00:00');
 
 function updateCountdown() {
     const now = new Date();

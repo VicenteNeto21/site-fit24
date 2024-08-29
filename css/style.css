@@ -9,7 +9,7 @@
 :root {
     --branco-fit: #fff;
     --preto-fit: #0E0E17;
-  }
+}
 
 body {
     display: flex;
@@ -33,7 +33,6 @@ img{
 }
 
 .countdown {
-   
     flex-wrap: wrap;
     color: var(--branco-fit);
     font-size: 30px;
@@ -53,4 +52,25 @@ img{
 	display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+footer nav {
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+
+footer nav i {
+	font-size: 20px;
+}
+
+footer nav a {
+	color: inherit;
 }
