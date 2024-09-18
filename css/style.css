@@ -1,15 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 :root {
     --branco-fit: #fff;
     --preto-fit: #0E0E17;
-    --azul-fit: 
+    --azul-fit: #007BFF;
+}
+
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilo do "track" (o trilho onde a barra de rolagem se move) */
+::-webkit-scrollbar-track {
+    background: #0E0E17; /* Cor de fundo do trilho */
+    border-radius: 10px; /* Deixa o trilho arredondado */
+}
+
+/* Estilo do polegar (a parte que se move na barra de rolagem) */
+::-webkit-scrollbar-thumb {
+    background-color: #f20577; /* Cor do polegar */
+    border-radius: 10px; /* Deixa o polegar arredondado */
+    border: 3px solid #0E0E17; /* Adiciona uma borda para dar um efeito "espaço" */
+}
+
+/* Estilo do polegar quando estiver em foco ou sendo "clicado" */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b81162; /* Cor mais escura ao passar o mouse */
 }
 
 body {
@@ -21,6 +47,11 @@ body {
     margin: 0;
     background: var(--preto-fit);
     font-family: "IBM Plex Sans", sans-serif;
+    padding: 15px;
+}
+
+.cartao {
+    margin-top: 20px;
 }
 
 h1#centro, p {
@@ -28,21 +59,23 @@ h1#centro, p {
     text-align: center;
 }
 
-img{    
-    position: relative;
-    padding: 20px;
+img {    
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem !important;
+    margin-top: 3rem !important;
 }
 
 .countdown {
     flex-wrap: wrap;
     color: var(--branco-fit);
-    font-size: 30px;
+    font-size: 24px;
     gap: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .time {
-    width: 180px;
+    width: 150px;
     text-align: center;
     border: 2px solid var(--branco-fit);
     padding: 10px;
@@ -74,4 +107,74 @@ footer nav i {
 
 footer nav a {
 	color: inherit;
+}
+
+
+/* Ajuste geral para telas menores */
+@media (max-width: 750px) {
+    .countdown {
+        font-size: 18px;
+        gap: 10px;
+        flex-wrap: wrap; /* Permite que os elementos quebrem de linha em telas pequenas */
+        justify-content: center;
+    }
+
+    .time {
+        width: 70px; /* Reduz a largura dos blocos */
+        padding: 8px;
+    }
+
+    img {
+        max-width: 100px;
+        margin-top: 2rem;
+    }
+}
+
+
+
+/* Ajuste geral para dispositivos menores */
+@media (max-width: 768px) {
+
+    /* Ajuste da fonte dos títulos e textos principais */
+    h1#centro {
+        font-size: 24px;
+    }
+
+    p#centro {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    /* Ajustes específicos para o cronômetro regressivo no mobile */
+    .countdown {
+        font-size: 18px;
+        gap: 5px;
+        margin-top: 10px;
+        flex-wrap: wrap; /* Permite que os elementos quebrem de linha em telas pequenas */
+        justify-content: center; /* Centraliza os blocos de tempo */
+    }
+
+    .time {
+        width: 120px; /* Reduz a largura dos blocos */
+        padding: 8px; /* Reduz o preenchimento interno dos blocos */
+        font-size: 14px; /* Diminui o tamanho da fonte dentro dos blocos */
+        margin-bottom: 10px; /* Espaçamento entre os blocos no mobile */
+    }
+
+    /* Ajuste do botão no mobile */
+    .eventoAnterior button {
+        font-size: 14px; /* Tamanho de fonte menor no botão */
+        padding: 10px 20px; /* Ajusta o tamanho do botão */
+    }
+
+    /* Redução da imagem no mobile */
+    img {
+        max-width: 100px;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    footer {
+        padding-top: 2rem;
+    }
 }
