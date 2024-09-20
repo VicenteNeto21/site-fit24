@@ -40,14 +40,13 @@
 
 body {
     display: flex;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background: var(--preto-fit);
     font-family: "IBM Plex Sans", sans-serif;
-    padding: 15px;
 }
 
 .cartao {
