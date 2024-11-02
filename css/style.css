@@ -22,20 +22,18 @@
 
 /* Estilo do "track" (o trilho onde a barra de rolagem se move) */
 ::-webkit-scrollbar-track {
-    background: #0E0E17; /* Cor de fundo do trilho */
-    border-radius: 10px; /* Deixa o trilho arredondado */
+    background: #0E0E17; 
+    border-radius: 10px;
 }
 
-/* Estilo do polegar (a parte que se move na barra de rolagem) */
 ::-webkit-scrollbar-thumb {
-    background-color: #f20577; /* Cor do polegar */
-    border-radius: 10px; /* Deixa o polegar arredondado */
-    border: 3px solid #0E0E17; /* Adiciona uma borda para dar um efeito "espaço" */
+    background-color: #f20577; 
+    border-radius: 10px; 
+    border: 3px solid #0E0E17;
 }
 
-/* Estilo do polegar quando estiver em foco ou sendo "clicado" */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #b81162; /* Cor mais escura ao passar o mouse */
+    background-color: #b81162;
 }
 
 body {
@@ -63,6 +61,12 @@ img {
     height: auto;
     margin-bottom: 1rem !important;
     margin-top: 3rem !important;
+}
+
+.img-footer {
+    max-width: 135px;
+    height: auto;
+    margin-top: 0rem !important;
 }
 
 .countdown {
@@ -101,6 +105,7 @@ footer nav {
 }
 
 footer nav i {
+    color: var(--branco-fit);
 	font-size: 20px;
 }
 
@@ -109,23 +114,28 @@ footer nav a {
 }
 
 
-/* Ajuste geral para telas menores */
 @media (max-width: 750px) {
     .countdown {
         font-size: 18px;
         gap: 10px;
-        flex-wrap: wrap; /* Permite que os elementos quebrem de linha em telas pequenas */
+        flex-wrap: wrap;
         justify-content: center;
     }
 
     .time {
-        width: 70px; /* Reduz a largura dos blocos */
+        width: 70px;
         padding: 8px;
     }
 
     img {
         max-width: 100px;
         margin-top: 2rem;
+    }
+
+    .img-footer {
+        max-width: 135px;
+        height: auto;
+        margin-top: 0rem !important;
     }
 }
 
@@ -149,28 +159,32 @@ footer nav a {
         font-size: 18px;
         gap: 5px;
         margin-top: 10px;
-        flex-wrap: wrap; /* Permite que os elementos quebrem de linha em telas pequenas */
-        justify-content: center; /* Centraliza os blocos de tempo */
+        flex-wrap: wrap; 
+        justify-content: center;
     }
 
     .time {
-        width: 120px; /* Reduz a largura dos blocos */
-        padding: 8px; /* Reduz o preenchimento interno dos blocos */
-        font-size: 14px; /* Diminui o tamanho da fonte dentro dos blocos */
-        margin-bottom: 10px; /* Espaçamento entre os blocos no mobile */
+        width: 120px; 
+        padding: 8px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 
     /* Ajuste do botão no mobile */
     .eventoAnterior button {
-        font-size: 14px; /* Tamanho de fonte menor no botão */
-        padding: 10px 20px; /* Ajusta o tamanho do botão */
+        font-size: 14px;
+        padding: 10px 20px;
     }
 
-    /* Redução da imagem no mobile */
     img {
         max-width: 100px;
         height: auto;
         margin-top: 2rem;
+    }
+    .img-footer {
+        max-width: 135px;
+        height: auto;
+        margin-top: 0rem !important;
     }
 
     footer {
