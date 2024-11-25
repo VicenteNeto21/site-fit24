@@ -17,7 +17,7 @@ a:hover {
 }
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body,
@@ -27,12 +27,12 @@ p {
     padding: 0;
     margin: 0;
     color: rgba(50, 51, 51, .8);
-    line-height: 2.6rem
+    line-height: 2.6rem;
 }
 
 body {
     font-family: "IBM Plex Sans", sans-serif;
-    background: #f1f1f1
+    background: #f1f1f1;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 h3,
 h4 {
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700
+    font-weight: 700;
 }
 
 h1,
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1b273d
+    color: #1b273d;
 }
 
 .h1,
@@ -63,7 +63,7 @@ h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 6.8rem;
     line-height: 10.2rem;
-    line-height: 8rem
+    line-height: 8rem;
 }
 
 .h2,
@@ -79,19 +79,19 @@ h2 {
 h3 {
     font-size: 2.6rem;
     line-height: 3.9000000000000004rem;
-    line-height: 4rem
+    line-height: 4rem;
 }
 
 .h4,
 .h5,
 h4,
 h5 {
-    font-size: 1.6rem
+    font-size: 1.6rem;
 }
 
 .h3 a,
 h3 a {
-    color: inherit
+    color: inherit;
 }
 
 .h3 a:hover,
@@ -108,41 +108,78 @@ h4 {
 .lgx-table thead tr th,
 blockquote {
     font-weight: 400;
-    text-align: center
+    text-align: center;
 }
 
 .h4 a,
 h4 a {
-    color: inherit
+    color: inherit;
 }
 
 .h4 a:hover,
 h4 a:hover {
-    color: #554bb9
+    color: #554bb9;
 }
 
 .h5,
 h5 {
     line-height: 2.4000000000000004rem;
-    line-height: 2rem
+    line-height: 2rem;
 }
 
 .h6,
 h6 {
     font-size: 1.4rem;
     line-height: 2.0999999999999996rem;
-    line-height: 1.8rem
+    line-height: 1.8rem;
 }
 
 blockquote,
 blockquote p {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.6rem;
-    line-height: 2.4000000000000004rem
+    line-height: 2.4000000000000004rem;
 }
 
 img {
     max-width: 100%
+}
+
+.hero-section {
+    padding: 100px;
+}
+
+.hero-section .hero-text {
+    padding-top: 100px;
+}
+
+.hero-section .hero-text span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-section .hero-text h2 {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 65px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.set-bg{
+    background-image: url('../img/fundo-branco.png');
+}
+
+.lgx-h3{
+    font-size: 2.6rem;
+    line-height: 2rem;
+    align-items: center;
+    display: flex;
+    justify-items: center;
 }
 
 .edicao-anterior{
@@ -156,23 +193,47 @@ img {
 
 .edicao-anterior li{
     display: flex;
-    text-align: center;
+    text-align: left;
     color: var(--magenta-fit);
+    align-items: center;
 }
 
 .edicao-anterior a {
     color: var(--magenta-fit);
-    margin-left: 20px;
+    margin-left: 5px;
+}
+
+.img-footer{
+    width: 225px;
+    margin-left: 34px;
+    margin-bottom: 20px;
+}
+
+.lgx-h3, span{
+    margin-right: 5px;
+}
+
+.mascote-img{
+    width: 100%;
+    margin-top: 25px;
+}
+
+a, .creators-website{
+    font-weight: 800;
+    color: var(--magenta-fit);
+}
+a, .creators-website:hover{
+    color: var(--branco-fit);
 }
 
 table td,
 table th {
     border: 1px solid #ddd;
-    padding: .5rem 1px
+    padding: .5rem 1px;
 }
 
 .lgx-table thead tr {
-    background: rgba(85, 75, 185, .2)
+    background: rgba(85, 75, 185, .2);
 }
 
 .lgx-table thead tr th {
@@ -181,7 +242,7 @@ table th {
     padding-bottom: 2rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-transform: uppercase;
-    color: #1b273d
+    color: #1b273d;
 }
 
 .lgx-table tbody tr td,
@@ -191,17 +252,17 @@ table th {
     border-top: 4px solid #f9f9f9;
     background: rgba(85, 75, 185, .05);
     text-align: center;
-    border-right: 2px solid #f9f9f9
+    border-right: 2px solid #f9f9f9;
 }
 
 .lgx-table tbody tr td:hover,
 .lgx-table tbody tr th,
 .lgx-table tbody tr th:hover {
-    background: rgba(85, 75, 185, .1)
+    background: rgba(85, 75, 185, .1);
 }
 
 a {
-    color: #483fa1
+    color: #483fa1;
 }
 
 a.active,
@@ -211,7 +272,7 @@ a:hover {
     -moz-transition-duration: .3s;
     -webkit-transition-duration: .3s;
     -o-transition-duration: .3s;
-    transition-duration: .3s
+    transition-duration: .3s;
 }
 
 .btn:active,
@@ -227,132 +288,7 @@ input[type=button]:focus {
 
 .lgx-inner {
     margin-top: 100px;
-    padding: 13rem 0
-}
-
-blockquote {
-    overflow: hidden;
-    color: #1b273d;
-    margin: 2rem auto;
-    display: block;
-    padding: 1rem 1.5rem;
-    position: relative;
-    border-left: 0;
-    border-radius: 0;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box
-}
-
-blockquote p {
-    opacity: 1
-}
-
-blockquote:after,
-blockquote:before {
-    font-family: FontAwesome;
-    position: absolute;
-    top: 4px;
-    font-size: 2rem;
-    line-height: 3rem;
-    opacity: .3;
-    color: #554bb9
-}
-
-blockquote footer {
-    float: none !important;
-    color: #554bb9
-}
-
-blockquote:after {
-    content: "\f10e";
-    right: 7px
-}
-
-blockquote:before {
-    content: "\f10d";
-    left: 7px;
-    text-align: center
-}
-
-.lgx-social {
-    font-size: 26px;
-    margin-left: 0
-}
-
-.lgx-social li {
-    color: #554bb9;
-    list-style-type: none;
-    display: inline-block;
-    padding: 0;
-    cursor: pointer;
-    transition: ease .3s;
-    opacity: .7;
-    margin-bottom: 5px
-}
-
-.lgx-social li a {
-    color: inherit;
-    background: #fff;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    -webkit-box-shadow: 0 2px 10px rgba(52, 61, 71, .2);
-    -moz-box-shadow: 0 2px 10px rgba(52, 61, 71, .2);
-    box-shadow: 0 2px 10px rgba(52, 61, 71, .2)
-}
-
-.lgx-social li a i {
-    font-size: 24px;
-    line-height: 45px
-}
-
-.lgx-social li:hover {
-    background: #554bb9;
-    color: #554bb9;
-    border-radius: 50%
-}
-
-.lgx-social li:hover a {
-    border-radius: 50%;
-    color: inherit
-}
-
-.lgx-social:hover>li {
-    color: #554bb9;
-    opacity: .3
-}
-
-.lgx-social:hover>li a {
-    color: inherit
-}
-
-.lgx-social:hover>li:hover {
-    opacity: 1
-}
-
-.lgx-social:hover>li:hover a {
-    background: #efa506
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 50px;
-    padding: 1.5rem 2rem;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: none;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+    padding: 13rem 0;
 }
 
 textarea.form-control {
@@ -388,7 +324,7 @@ textarea.form-control {
 .lgx-submit,
 .wpcf7-submit,
 button {
-    font-family: Oswald, sans-serif
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .lgx-heading .subheading {
@@ -412,17 +348,17 @@ button {
     color: #554bb9;
     text-transform: uppercase;
     margin-bottom: 3.9rem;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .mfp-close:hover {
-    background: 0 0
+    background: 0 0;
 }
 
 .section-btn-area {
     text-align: center;
     display: block;
-    margin-top: 2.6rem
+    margin-top: 2.6rem;
 }
 
 .lgx-btn,
@@ -450,7 +386,7 @@ button {
     transition-duration: .3s;
     -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, .4);
     -moz-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, .4);
-    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, .4)
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, .4);
 }
 
 .lgx-btn:hover,
@@ -458,17 +394,17 @@ button {
 .wpcf7-submit:hover,
 button:hover {
     color: #fff;
-    border-radius: 16px;
+    border-radius: 5px;
     -moz-transition-duration: .3s;
     -webkit-transition-duration: .3s;
     -o-transition-duration: .3s;
     transition-duration: .3s;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, .1)
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
 }
 
 .lgx-btn-white,
 .lgx-btn-white:hover {
-    color: #554bb9
+    color: #554bb9;
 }
 
 .lgx-btn span,
@@ -476,7 +412,8 @@ button:hover {
 .wpcf7-submit span,
 button span {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    margin-right: 10px;
 }
 
 .lgx-btn:after,
@@ -494,7 +431,7 @@ button:after {
     transition: all .5s ease-in-out;
     -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
     transform: translateX(-98%) translateY(-25%) rotate(45deg);
-    opacity: .15
+    opacity: .15;
 }
 
 .lgx-btn:hover:after,
@@ -506,37 +443,37 @@ button:hover:after {
     height: 604%;
     width: 300px;
     left: 43px;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .lgx-btn-sm {
     padding: .8rem 2.6rem;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .lgx-btn-red {
-    background: #ec398b
+    background: #ec398b;
 }
 
 .lgx-btn-yellow {
-    background: #efa506
+    background: #efa506;
 }
 
 .lgx-btn-black {
-    background: #1b273d
+    background: #1b273d;
 }
 
 .lgx-btn-black:after,
 .lgx-btn-white {
-    background: #fff
+    background: #fff;
 }
 
 .section-btn-area .lgx-btn {
-    margin-right: .5rem
+    margin-right: .5rem;
 }
 
 .lgx-btn-white:after {
-    background: #ddd;
+    background: #ddd;;
     opacity: .3
 }
 
@@ -545,42 +482,42 @@ button:hover:after {
 .mfp-wrap .wpcf7-submit:after,
 .mfp-wrap button:after {
     background: 0 0;
-    position: static
+    position: static;
 }
 
 .mfp-wrap .mfp-arrow-left .mfp-a,
 .mfp-wrap .mfp-arrow-left::after {
-    border-right: none
+    border-right: none;
 }
 
 .mfp-wrap .mfp-arrow-right .mfp-a,
 .mfp-wrap .mfp-arrow-right::after {
-    border-left: none
+    border-left: none;
 }
 
 .mfp-wrap .mfp-arrow {
     height: auto;
     background: #efa506;
-    border-radius: 16px
+    border-radius: 2px
 }
 
 .mfp-wrap .mfp-arrow .mfp-a,
 .mfp-wrap .mfp-arrow .mfp-b,
 .mfp-wrap .mfp-arrow::after,
 .mfp-wrap .mfp-arrow::before {
-    top: -25px
+    top: -25px;
 }
 
 .schedule-btn-area,
 .sponsor-btn-area {
-    margin-top: 4.2rem
+    margin-top: 4.2rem;
 }
 
 @media (max-width:767px) {
     .lgx-btn {
         font-size: 12px;
         padding: .6rem 2rem;
-        letter-spacing: 0
+        letter-spacing: 0;
     }
 }
 
@@ -7059,14 +6996,13 @@ button:hover:after {
 }
 
 .lgx-header .lgx-navbar .lgx-nav li a:hover {
-    background: 0 0;
-    color: #554bb9;
-    opacity: 1
+    color: var(--magenta-fit);
+    opacity: 1;
 }
 
 .lgx-header .lgx-navbar .lgx-nav .active a {
     background: 0 0;
-    color: #554bb9
+    color: var(--magenta-fit);
 }
 
 .lgx-header .lgx-navbar .lgx-nav .dropdown-menu {
@@ -7266,7 +7202,7 @@ button:hover:after {
 .lgx-header .menu-onscroll .lgx-nav-right .lgx-search,
 .lgx-header-position-white .lgx-nav-right .lgx-search a,
 .lgx-header-position-white .lgx-navbar .lgx-nav li a {
-    color: #fff
+    color: var(--branco-fit);
 }
 
 .lgx-header {
@@ -7328,7 +7264,7 @@ button:hover:after {
 }
 
 .lgx-header .menu-onscroll {
-    background: rgba(27, 39, 61, .95);
+    background: var(--preto-fit);
     position: fixed;
     top: 0;
     width: 100%;
@@ -7656,7 +7592,7 @@ button:hover:after {
 }
 
 .lgx-banner .lgx-inner {
-    padding: 27rem 0 20rem
+    padding: 7rem;
 }
 
 .background-video {
@@ -7676,7 +7612,7 @@ button:hover:after {
     z-index: 1; /* Mantém o texto acima do vídeo */
 }
 
-/* .lgx-banner-music,
+.lgx-banner-music,
 .lgx-banner12,
 .lgx-banner13,
 .lgx-banner14,
@@ -7687,12 +7623,12 @@ button:hover:after {
 .lgx-banner5,
 .lgx-banner6,
 .lgx-banner7 {
-    background: url('../videos/videofundo.mp4') top center no-repeat;
+    background: url('../img/fundo-top.png') top center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: cover
-} */
+}
 
 /* .lgx-banner-christmas {
     background: url(http://placehold.it/1920x912) bottom center no-repeat;
@@ -7723,6 +7659,7 @@ button:hover:after {
 }
 
 .lgx-banner-info {
+    margin-top: 8rem;
     color: #fff
 }
 
@@ -7814,7 +7751,9 @@ button:hover:after {
 }
 
 .lgx-banner-info .action-area .lgx-btn {
-    margin-right: .5rem
+    display: flex;
+    margin-right: .5rem;
+    font-weight: bold;
 }
 
 .lgx-banner-info .action-area .video-area {
@@ -7833,7 +7772,7 @@ button:hover:after {
     display: inline-block;
     background: rgba(255, 255, 255, .2);
     color: #fff;
-    border-radius: 50%;
+    border-radius: 22px;
     height: 60px;
     width: 60px;
     text-align: center;
@@ -7848,16 +7787,16 @@ button:hover:after {
 
 .lgx-banner-info .action-area .video-area a:hover i {
     background: #fff;
-    color: #efa506
+    color: #efa506;
 }
 
 .banner-info-margin {
-    margin-top: 4.2rem
+    margin-top: 4.2rem;
 }
 
 .lgx-banner-info.lgx-banner-info-homeone {
     margin-top: -4.2rem;
-    margin-bottom: 4.2rem
+    margin-bottom: 4.2rem;
 }
 
 .lgx-banner-info-circle {
@@ -7870,7 +7809,7 @@ button:hover:after {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(85, 76, 185, .9)', endColorstr='rgba(236, 57, 139, 0.9)', GradientType=0);
     padding: 1.5rem;
     border-radius: 50%;
-    margin-right: 5rem
+    margin-right: 5rem;
 }
 
 .lgx-banner-info-circle .info-circle-inner {
@@ -7898,7 +7837,7 @@ button:hover:after {
     opacity: .8
 }
 
-.lgx-banner-info-date {
+/* .lgx-banner-info-date {
     padding-right: 2rem;
     max-width: 380px;
     text-align: center
@@ -7943,9 +7882,9 @@ button:hover:after {
     border-radius: 8px;
     padding-right: 0;
     padding-left: 2rem
-}
+} */
 
-.lgx-banner-info-homeone .subtitle {
+/* .lgx-banner-info-homeone .subtitle {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 6.8rem;
     font-weight: 300;
@@ -7957,7 +7896,7 @@ button:hover:after {
 .about-date-area p span,
 .lgx-about-content-area .lgx-heading .subheading,
 .lgx-banner-info-homeone .title {
-    font-family: Oswald, sans-serif
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .lgx-banner-info-homeone .title {
@@ -8093,7 +8032,7 @@ button:hover:after {
     color: #1b273d;
     margin: 0 0 4.2rem;
     line-height: 8.5rem
-}
+} */
 
 @media (max-width:991px) {
     .lgx-banner .lgx-inner {
@@ -8213,6 +8152,14 @@ button:hover:after {
 
     .slider-text-single figure img {
         height: 280px
+    }
+
+    .hero-section{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     }
 }
 
@@ -9072,6 +9019,14 @@ button:hover:after {
     .lgx-banner-info-bg {
         background: 0 0
     }
+
+    .hero-section{
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
 }
 
 @media (max-width:767px) {
@@ -9083,8 +9038,15 @@ button:hover:after {
 
     .lgx-slider .owl-next,
     .lgx-slider .owl-prev {
-        top: 36%
+        top: 36%;
     }
+    .hero-section{
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
 }
 
 .lgx-about {
@@ -10224,7 +10186,8 @@ button:hover:after {
     margin: 0 0 .5rem;
     padding: .2rem 1rem;
     border-radius: 5px;
-    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .lgx-panel .lgx-single-schedule .schedule-info .typeEventsBlue {
@@ -10239,7 +10202,8 @@ button:hover:after {
     margin: 0 0 .5rem;
     padding: .2rem 1rem;
     border-radius: 5px;
-    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .lgx-panel .lgx-single-schedule .schedule-info .typeEventsYellow {
@@ -10254,7 +10218,8 @@ button:hover:after {
     margin: 0 0 .5rem;
     padding: .2rem 1rem;
     border-radius: 5px;
-    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .lgx-panel .lgx-single-schedule .schedule-info .typeEventsBlack {
@@ -10269,7 +10234,8 @@ button:hover:after {
     margin: 0 0 .5rem;
     padding: .2rem 1rem;
     border-radius: 5px;
-    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .lgx-panel .lgx-single-schedule .schedule-info .typeEvents span {
@@ -11562,7 +11528,7 @@ button:hover:after {
 .lgx-inner-countdown .countdown-left-info {
     font-family: "IBM Plex Sans", sans-serif;
     background: var(--ciano-fit);
-    width: 40%;
+    width: 45%;
     text-align: center;
     padding: 4.2rem 1rem
 }
@@ -12600,7 +12566,7 @@ blockquote.lgx-testi-single:before {
 
 .lgx-video-area figure {
     position: relative;
-    border-radius: 6px
+    border-radius: 2px
 }
 
 .lgx-video-area figure img {
@@ -13011,32 +12977,9 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer .lgx-inner-footer {
-    background: rgba(85, 75, 185, .95)
+    background: var(--preto-fit);
 }
 
-.lgx-footer-music {
-    background: url(http://placehold.it/1920x850) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-footer-black .lgx-inner-footer {
-    background: rgba(27, 39, 61, .95)
-}
-
-.lgx-footer-christmas {
-    background: url(http://placehold.it/1920x850) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-footer-christmas .lgx-inner-footer {
-    background: 0 0
-}
 
 .lgx-social-footer {
     font-size: 26px;
@@ -13108,7 +13051,6 @@ blockquote.lgx-testi-single:before {
 
 .lgx-footer-single {
     flex: 1;
-    text-align: left;
     color: rgba(255, 255, 255, .5);
     display: block;
     margin-left: 15px;
@@ -13220,7 +13162,7 @@ blockquote.lgx-testi-single:before {
 
 .lgx-footer-single .opening-time-single {
     margin-bottom: 1rem;
-    font-family: Oswald, sans-serif
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .lgx-footer-single .opening-time-single span {
@@ -13273,7 +13215,7 @@ blockquote.lgx-testi-single:before {
 
 .lgx-speacialgap-area {
     background: #fff;
-    height: 25rem
+    height: 45rem
 }
 
 .lgx-box-layout .lgx-header .menu-onscroll {
@@ -13899,7 +13841,10 @@ blockquote.lgx-testi-single:before {
     }
 
     .lgx-banner-info .action-area {
-        margin-top: 2rem
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .banner-info-margin {
