@@ -9360,7 +9360,7 @@ button:hover:after {
 }
 
 .lgx-single-speaker figure figcaption {
-    background: rgba(85, 75, 185, .9);
+    background: hsla(244, 53%, 6%, 0.9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -9390,7 +9390,7 @@ button:hover:after {
 }
 
 .lgx-single-speaker .social-group a {
-    color: #fff
+    color: #ec398b;
 }
 
 .lgx-single-speaker .speaker-info {
@@ -9407,7 +9407,7 @@ button:hover:after {
     line-height: 3.9000000000000004rem;
     font-weight: 700;
     margin: 0;
-    color: #efa506
+    color: #ec398b;
 }
 
 .lgx-single-speaker .speaker-info .title a {
